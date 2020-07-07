@@ -43,4 +43,5 @@ def main(population_size=500, crossover_chance=.3, mutation_chance=.1, generatio
         sorted_population = sorted(new_population, key=lambda individual: score_individual(individual))
         print(f'Best Candidate: {sorted_population[0]} with collisions: {score_individual(sorted_population[0])}')
 
+
 main()
